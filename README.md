@@ -25,7 +25,8 @@ Project isn't finished ! Made with Hard Work, Documentations, ChatGPT. Inspirati
 ## Start 
 ```
 1 - Install the script's modules (setup.bat) / Open a shell and type : "pip install requirements.txt
-2 - Open main.py / start.bat / Aphelios.exe or open a shell and type "python3 main.py / python main.py"
+2 - Open Settings.txt and put your Hunter.io API key between the double quotes "" (you need to create an account)
+3 - Open main.py / start.bat / Aphelios.exe or open a shell and type "python3 main.py / python main.py"
 
 ```
 
