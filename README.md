@@ -5,7 +5,7 @@
 Project isn't finished ! Made with Hard Work, Documentations, ChatGPT. Inspirations from Osintgram, Littlebrother, Old Kali linux shell UI (on Github)
 
 # Release 07/09/23 On Github (OpenSource)
-# [> Releases <](https://github.com/intel1337/Aphelios/releases/tag/osint)
+# [> Releases <](https://github.com/intel1337/Aphelios/releases)
 
 > I AM NOT RESPONSABLE OF WHAT YOU'RE DOING WITH MY SCRIPT
 > EDUCATIONAL PURPOSES ONLY
@@ -14,8 +14,7 @@ Project isn't finished ! Made with Hard Work, Documentations, ChatGPT. Inspirati
 
 ### Screenshot
 
-![image](https://github.com/intel1337/Aphelios/releases)
-
+![image](https://github.com/intel1337/Aphelios/assets/93615583/f013cca0-cb33-452f-9638-078b9327f5e4)
 
 # Concept 
 
