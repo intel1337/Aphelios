@@ -9,18 +9,16 @@ import socket
 import requests
 from ip2geotools.databases.noncommercial import DbIpCity
 from geopy.distance import distance
-
-
+import socket
+import requests
 
 
 # Var
-file_path = "hunteriosettings.txt"
+file_path = "settings.txt"
 key = None
-
 # Func
 try:
     with open(file_path, "r") as file:
-        # Read the content of the file
         file_content = file.read()
         match = re.search(r'"([^"]*)"', file_content)
         if match:
@@ -35,7 +33,6 @@ def printDetails(ip):
     print(f"IP Address: {res.ip_address}")
     print(f"Location: {res.city}, {res.region}, {res.country}")
     print(f"Coordinates: (Lat: {res.latitude}, Lng: {res.longitude})")
-
 # Main Script
 
 def main():
@@ -54,7 +51,9 @@ def main():
     [0] Exit                        [1] Email Verifier >Hunter.io
     [2] Domain Search >Hunter.io    [3] Email Finder >Hunter.io
     [4] IPv4 Track                  [5] Url Track
-    [6] Email Listing               [7] Credits
+    [6] Email Listing               [7] Get IP from URL
+    [8] Check IP / Url Status       [9] Phone Lookup > ??????
+    [10] Credits
 {Fore.LIGHTMAGENTA_EX}
 """)
 
@@ -96,6 +95,23 @@ def main():
         input()
         onstart()
     if cmd == "7":
+        geturl = input("Type the url of the website :")
+        print("Url > IP:",socket.gethostbyname(geturl))
+        print("Press Enter to Continue...")
+        input()
+        onstart()
+    if cmd == "8":
+        urlip = input("Put Url / IP :")
+        os.system('ping ' + urlip)
+        print("Press Enter to Continue...")
+        input()
+        onstart()
+    if cmd == "9":
+        print("Under Devloppement Sorry ;p")
+        print("Press Enter to Continue...")
+        input()
+        onstart()
+    if cmd == "10":
         webbrowser.open('https://github.com/intel1337')
         print("""
 dev by bash / Intel1337
@@ -105,14 +121,11 @@ With Hunter.io API
         input()
         onstart()
     else:
-        print("Please enter a number between 1 and 5.")
+        print("Please make sure you choose an existing command number.")
         print("Press Enter to Continue...")
         input()
         onstart()
         
-        
-
-
 def onstart():
 	os.system("cls && title Aphelios - Osint")
 	main()
