@@ -14,7 +14,7 @@ Project isn't finished ! Made with Hard Work, Documentations, ChatGPT. Inspirati
 
 ### Screenshot
 
-![image](https://github.com/intel1337/Aphelios/assets/93615583/8dc04cc5-1853-4986-bc12-394629c74a60)
+![image](https://github.com/intel1337/Aphelios/releases)
 
 
 # Concept 
